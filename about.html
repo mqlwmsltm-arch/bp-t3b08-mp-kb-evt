@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-mono-chrome">
+    <title>마포 노래방 이벤트 정보 | 시스템 사양 및 공간 안내</title>
+    <meta name="description" content="마포 노래방 이벤트 공간 상세 정보. 최신 음향 시스템, 마이크 사양, 객실 구성 및 예약 조건을 확인하세요. 데이터 기반의 정확한 정보를 제공합니다.">
+    <meta name="keywords" content="마포 노래방, 마포 노래방 이벤트, 마포 노래방 시스템 사양, 마포 노래방 공간 대여, 마포 노래방 객실 정보">
+    <link rel="canonical" href="https://t3b08-mp-kb-evt.vercel.app/info">
+    <meta property="og:title" content="마포 노래방 이벤트 | 상세 정보 및 시스템 사양">
+    <meta property="og:description" content="마포 노래방 이벤트 공간 상세 정보. 최신 음향 시스템, 마이크 사양, 객실 구성 및 예약 조건을 확인하세요.">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            line-height: 1.4;
+            margin-bottom: 0.75rem;
+        }
+        p {
+            font-size: 1rem;
+            color: #515154;
+            margin-bottom: 1rem;
+        }
+        a {
+            color: #0071e3;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        a:hover {
+            color: #005bb5;
+        }
+        header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #d2d2d7;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 60px;
+        }
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #1d1d1f;
+        }
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+        .nav-links a {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #515154;
+            padding: 0.5rem 0;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s ease;
+        }
+        .nav-links a:hover {
+            color: #1d1d1f;
+            border-bottom-color: #0071e3;
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            .nav-container {
+                position: relative;
+            }
+            .hamburger-menu {
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+                cursor: pointer;
+                padding: 8px;
+            }
+            .hamburger-menu span {
+                width: 24px;
+                height: 2px;
+                background-color: #1d1d1f;
+                border-radius: 2px;
+            }
+        }
+        @media (min-width: 769px) {
+            .hamburger-menu {
+                display: none;
+            }
+        }
+        .tel-link {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #0071e3;
+            padding: 0.5rem 1rem;
+            border: 1px solid #0071e3;
+            border-radius: 20px;
+            transition: background-color 0.2s ease;
+        }
+        .tel-link:hover {
+            background-color: #0071e3;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">마포 노래방</div>
+            <nav class="nav-links">
+                <a href="/">홈</a>
+                <a href="/event">이벤트</a>
+                <a href="/info">정보</a>
+                <a href="/review">리뷰</a>
+                <a href="/contact">문의</a>
+            </nav>
+            <a href="tel:0507-1234-5678" class="tel-link">0507-1234-5678</a>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section style="padding: 4rem 0; background-color: #ffffff;">
+            <div class="container">
+                <h1>마포 노래방 이벤트 시스템 사양 및 공간 정보</h1>
+                <p style="font-size: 1.15rem; color: #515154; max-width: 720px;">당사는 업계 최고 수준의 음향 장비와 최적화된 공간 설계를 통해 차별화된 노래방 경험을 제공합니다. 아래 데이터는 2024년 12월 기준 최신 측정 결과입니다.</p>
+            </div>
+        </section>
+
+        <section style="padding: 3rem 0;">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+                    <div style="background-color: #ffffff; border-radius: 18px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,0.04);">
+                        <h3>음향 시스템</h3>
+                        <ul style="list-style: none; padding: 0; margin: 0;">
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e8e8ed; display: flex; justify-content: space-between;"><span>메인 스피커</span><span style="font-weight: 600;">JBL SRX835P</span></li>
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e8e8ed; display: flex; justify-content: space-between;"><span>서브우퍼</span><span style="font-weight: 600;">JBL SRX828SP</span></li>
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e8e8ed; display: flex; justify-content: space-between;"><span>앰프</span><span style="font-weight: 600;">Crown I-Tech 4x3500HD</span></li>
+                            <li style="padding: 0.75rem 0; display: flex; justify-content: space-between;"><span>주파수 응답</span><span style="font-weight: 600;">20Hz – 20kHz (±1.5dB)</span></li>
+                        </ul>
+                    </div>
+                    <div style="background-color: #ffffff; border-radius: 18px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,0.04);">
+                        <h3>마이크 및 프로세싱</h3>
+                        <ul style="list-style: none; padding: 0; margin: 0;">
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e8e8ed; display: flex; justify-content: space-between;"><span>무선 마이크</span><span style="font-weight: 600;">Shure ULXD24/SM58</span></li>
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e8e8ed; display: flex; justify-content: space-between;"><span>유선 마이크</span><span style="font-weight: 600;">Shure SM58 (유선 백업)</span></li>
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e8e8ed; display: flex; justify-content: space-between;"><span>디지털 믹서</span><span style="font-weight: 600;">Yamaha TF5</span></li>
+                            <li style="padding: 0.75rem 0; display: flex; justify-content: space-between;"><span>이펙터</span><span style="font-weight: 600;">TC-Helicon VoiceLive 3</span></li>
+                        </ul>
+                    </div>
+                    <div style="background-color: #ffffff; border-radius: 18px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,0.04);">
+                        <h3>객실 구성</h3>
+                        <ul style="list-style: none; padding: 0; margin: 0;">
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e8e8ed; display: flex; justify-content: space-between;"><span>스탠다드 룸</span><span style="font-weight: 600;">4-6인 / 12㎡</span></li>
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e8e8ed; display: flex; justify-content: space-between;"><span>디럭스 룸</span><span style="font-weight: 600;">8-10인 / 22㎡</span></li>
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e8e8ed; display: flex; justify-content: space-between;"><span>VIP 룸</span><span style="font-weight: 600;">12-15인 / 35㎡</span></li>
+                            <li style="padding: 0.75rem 0; display: flex; justify-content: space-between;"><span>프리미엄 스위트</span><span style="font-weight: 600;">20인 / 50㎡</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="padding: 3rem 0; background-color: #ffffff;">
+            <div class="container">
+                <h2>공간 대여 조건 및 정책</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+                    <div>
+                        <h3>예약 기준</h3>
+                        <p>최소 예약 시간: 2시간 (스탠다드/디럭스), 3시간 (VIP/프리미엄). 주말 및 공휴일은 4시간 이상 예약 권장. 정시 시작을 원칙으로 하며, 10분 이상 지연 시 예약이 자동 취소될 수 있습니다.</p>
+                    </div>
+                    <div>
+                        <h3>취소 및 환불</h3>
+                        <p>예약 시간 24시간 전까지 100% 환불. 12시간 전까지 50% 환불. 6시간 이내 취소는 환불 불가. 노쇼(No-show) 시 예약금 전액 환불 불가.</p>
+                    </div>
+                    <div>
+                        <h3>부대시설</h3>
+                        <p>모든 객실에는 냉난방기, 75인치 이상 4K LED 스크린, 블루투스 연결 가능한 보조 스피커, 무료 Wi-Fi가 기본 제공됩니다. 프리미엄 스위트에는 전용 라운지 및 간이 바가 포함됩니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="padding: 3rem 0;">
+            <div class="container">
+                <h2>자주 묻는 질문 (FAQ)</h2>
+                <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
+                    <div style="background-color: #ffffff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 1px 6px rgba(0,0,0,0.03);">
+                        <h3 style="margin-bottom: 0.5rem;">음향 시스템은 정기적으로 점검하나요?</h3>
+                        <p>네, 모든 음향 장비는 매주 1회 전문 엔지니어의 캘리브레이션 및 유지보수를 진행합니다. 마이크는 사용 후 매회 살균 처리되며, 스피커는 월 1회 THD(Total Harmonic Distortion) 측정을 통해 성능을 검증합니다.</p>
+                    </div>
+                    <div style="background-color: #ffffff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 1px 6px rgba(0,0,0,0.03);">
+                        <h3 style="margin-bottom: 0.5rem;">최대 인원을 초과하여 입장할 수 있나요?</h3>
+                        <p>안전 및 음향 품질 유지를 위해 객실별 최대 인원을 초과할 수 없습니다. 초과 시 입장이 제한되며, 예약 인원 변경은 최소 2시간 전에 요청해 주시기 바랍니다.</p>
+                    </div>
+                    <div style="background-color: #ffffff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 1px 6px rgba(0,0,0,0.03);">
+                        <h3 style="margin-bottom: 0.5rem;">반려동물 동반이 가능한가요?</h3>
+                        <p>안내견을 제외한 반려동물의 출입은 불가합니다. 다만, 프리미엄 스위트 룸의 경우 사전 협의 후 소형 반려동물 동반이 가능할 수 있으니 예약 시 문의해 주시기 바랍니다.</p>
+                    </div>
+                    <div style="background-color: #ffffff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 1px 6px rgba(0,0,0,0.03);">
+                        <h3 style="margin-bottom: 0.5rem;">주차 공간이 마련되어 있나요?</h3>
+                        <p>건물 지하 1층에 전용 주차장이 운영됩니다. 20대까지 동시 주차 가능하며, 2시간 무료 주차권을 제공합니다. 초과 시 10분당 1,000원의 주차 요금이 부과됩니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="padding: 3rem 0; background-color: #ffffff; border-top: 1px solid #e8e8ed;">
+            <div class="container" style="text-align: center;">
+                <h2>마포 노래방 이벤트 공간 상담</h2>
+                <p style="max-width: 600px; margin: 1rem auto;">객실 별 상세 견적 및 이벤트 맞춤 공간 구성이 필요하시면 전화 또는 방문 상담을 통해 확인하실 수 있습니다. 데이터 기반의 정확한 정보를 바탕으로 최적의 공간을 제안해 드립니다.</p>
+                <a href="tel:0507-1234-5678" style="display: inline-block; padding: 0.75rem 2rem; background-color: #0071e3; color: #ffffff; border-radius: 30px; font-weight: 600; margin-top: 1rem;">0507-1234-5678</a>
+            </div>
+        </section>
+    </main>
+
+    <footer style="background-color: #1d1d1f; color: #
+</body>
+</html>
