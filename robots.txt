@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://mapo-room-guide.xyz/sitemap.xml
+Sitemap: https://mapo-room-guide.xyz/sitemap-index.xml
