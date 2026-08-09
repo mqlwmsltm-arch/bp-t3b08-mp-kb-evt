@@ -1,210 +1,208 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>마포 노래방 이벤트 — 비용 구조와 조건별 선택 가이드</title>
-    <meta name="description" content="마포 지역 노래방을 이용할 때 고려해야 할 핵심 변수: 인원 수, 시간대, 기기 선호도를 기준으로 한 비용 구조 해설 및 선택 기준.">
-    <meta name="keywords" content="마포노래방, 마포 이벤트, 노래방비용구조, 마포 룸예약">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-acid-yellow">
-    <meta property="og:title" content="마포 노래방 이벤트 — 비용 구조와 조건별 선택 가이드">
-    <meta property="og:description" content="마포 지역 노래방을 이용할 때 고려해야 할 핵심 변수: 인원 수, 시간대, 기기 선호도를 기준으로 한 비용 구조 해설 및 선택 기준.">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>마포 노래방 이벤트 — 비용 구조와 조건별 선택 가이드</title>
+ <meta name="description" content="마포 지역 노래방을 이용할 때 고려해야 할 핵심 변수: 인원 수, 시간대, 기기 선호도를 기준으로 한 비용 구조 해설 및 선택 기준.">
+ <meta name="keywords" content="마포노래방, 마포 이벤트, 노래방비용구조, 마포 룸예약">
+ <meta property="og:title" content="마포 노래방 이벤트 — 비용 구조와 조건별 선택 가이드">
+ <meta property="og:description" content="마포 지역 노래방을 이용할 때 고려해야 할 핵심 변수: 인원 수, 시간대, 기기 선호도를 기준으로 한 비용 구조 해설 및 선택 기준.">
+ <meta property="og:type" content="website">
+ <meta name="twitter:card" content="summary">
 
-    <style>
-        /* * DESIGN SYSTEM: Acid-Yellow Brutalist v1 */
-        :root {
-            --bg-color: #f0f0e5;
-            --text-color: #1a1a1a;
-            --accent-color: #ffff00;
-            --border-color: #333333;
-            --font-main: 'Helvetica Neue', sans-serif;
-            --font-mono: 'Courier New', monospace;
-        }
+ <style>
+ /* * DESIGN SYSTEM: Acid-Yellow Brutalist v1 */
+ :root {
+ --bg-color: #f0f0e5;
+ --text-color: #1a1a1a;
+ --accent-color: #ffff00;
+ --border-color: #333333;
+ --font-main: 'Helvetica Neue', sans-serif;
+ --font-mono: 'Courier New', monospace;
+ }
 
-        *, *::before, *::after {
-            box-sizing: border-box;
-        }
+ *, *::before, *::after {
+ box-sizing: border-box;
+ }
 
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: var(--font-main);
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
+ body {
+ margin: 0;
+ padding: 0;
+ font-family: var(--font-main);
+ background-color: var(--bg-color);
+ color: var(--text-color);
+ line-height: 1.6;
+ overflow-x: hidden;
+ }
 
-        h1, h2, h3, h4 {
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: -0.5px;
-            margin-top: 0;
-        }
+ h1, h2, h3, h4 {
+ font-weight: 800;
+ text-transform: uppercase;
+ letter-spacing: -0.5px;
+ margin-top: 0;
+ }
 
-        h1 {
-            font-size: clamp(2rem, 5vw, 3.5rem);
-            line-height: 1.1;
-            color: var(--text-color);
-        }
+ h1 {
+ font-size: clamp(2rem, 5vw, 3.5rem);
+ line-height: 1.1;
+ color: var(--text-color);
+ }
 
-        h2 {
-            font-size: clamp(1.2rem, 4vw, 2rem);
-            margin-bottom: 0.5rem;
-            border-bottom: 4px solid var(--accent-color);
-            display: inline-block;
-            padding-bottom: 0.2rem;
-        }
+ h2 {
+ font-size: clamp(1.2rem, 4vw, 2rem);
+ margin-bottom: 0.5rem;
+ border-bottom: 4px solid var(--accent-color);
+ display: inline-block;
+ padding-bottom: 0.2rem;
+ }
 
-        h3 {
-            font-size: 1.5rem;
-            margin-top: 1.5rem;
-            color: #555;
-        }
+ h3 {
+ font-size: 1.5rem;
+ margin-top: 1.5rem;
+ color: #555;
+ }
 
-        p, li {
-            font-size: 1.05rem;
-            margin-bottom: 1.2rem;
-            max-width: 70ch;
-        }
+ p, li {
+ font-size: 1.05rem;
+ margin-bottom: 1.2rem;
+ max-width: 70ch;
+ }
 
-        a {
-            color: var(--text-color);
-            text-decoration: underline;
-            text-underline-offset: 4px;
-        }
+ a {
+ color: var(--text-color);
+ text-decoration: underline;
+ text-underline-offset: 4px;
+ }
 
-        .mono-tag {
-            font-family: var(--font-mono);
-            background: var(--accent-color);
-            padding: 0.2rem 0.6rem;
-            font-size: 0.9rem;
-            display: inline-block;
-            margin-bottom: 1rem;
-        }
+ .mono-tag {
+ font-family: var(--font-mono);
+ background: var(--accent-color);
+ padding: 0.2rem 0.6rem;
+ font-size: 0.9rem;
+ display: inline-block;
+ margin-bottom: 1rem;
+ }
 
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
+ .container {
+ max-width: 1400px;
+ margin: 0 auto;
+ padding: 2rem;
+ }
 
-        /* * COMPONENTS */
-        .q-grid-ckxm-nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 4px solid var(--border-color);
-            padding-bottom: 1.5rem;
-            margin-bottom: 3rem;
-        }
+ /* * COMPONENTS */
+ .q-grid-ckxm-nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 4px solid var(--border-color);
+ padding-bottom: 1.5rem;
+ margin-bottom: 3rem;
+ }
 
-        .nav-list {
-            display: flex;
-            gap: 2rem;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
+ .nav-list {
+ display: flex;
+ gap: 2rem;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ }
 
-        .nav-list li a {
-            font-family: var(--font-mono);
-            text-transform: uppercase;
-            font-size: 0.9rem;
-            letter-spacing: 1px;
-        }
+ .nav-list li a {
+ font-family: var(--font-mono);
+ text-transform: uppercase;
+ font-size: 0.9rem;
+ letter-spacing: 1px;
+ }
 
-        /* * CONTENT STRUCTURE */
-        .content-block {
-            margin-bottom: 4rem;
-        }
+ /* * CONTENT STRUCTURE */
+ .content-block {
+ margin-bottom: 4rem;
+ }
 
-        .info-card {
-            border: 4px solid var(--border-color);
-            padding: 2rem;
-            background: #fff;
-            box-shadow: 8px 8px 0 var(--accent-color);
-        }
+ .info-card {
+ border: 4px solid var(--border-color);
+ padding: 2rem;
+ background: #fff;
+ box-shadow: 8px 8px 0 var(--accent-color);
+ }
 
-        .faq-list li {
-            margin-bottom: 1.5rem;
-            border-left: 4px solid var(--border-color);
-            padding-left: 1.5rem;
-        }
-    </style>
-  <link rel="canonical" href="https://mapo-room-guide.xyz/about.html">
-  <meta property="og:url" content="https://mapo-room-guide.xyz/about.html">
+ .faq-list li {
+ margin-bottom: 1.5rem;
+ border-left: 4px solid var(--border-color);
+ padding-left: 1.5rem;
+ }
+ </style>
+ <link rel="canonical" href="https://mapo-room-guide.xyz/about.html">
+ <meta property="og:url" content="https://mapo-room-guide.xyz/about.html">
 </head>
 <body>
 
 <div class="container">
-    <!-- 네비게이션 및 헤더 -->
-    <nav class="q-grid-ckxm-nav nav-present responsive-768">
-        <div style="font-family: var(--font-mono); font-weight: bold; font-size: 1.5rem;">M-PHONE EVENT</div>
-        <ul class="nav-list">
-            <li><a href="#">홈</a></li>
-            <li><a href="#">가격표</a></li>
-            <li><a href="#">예약하기</a></li>
-            <li><a href="#">정보</a></li>
-        </ul>
-    </nav>
+ <!-- 네비게이션 및 헤더 -->
+ <nav class="q-grid-ckxm-nav nav-present responsive-768">
+ <div style="font-family: var(--font-mono); font-weight: bold; font-size: 1.5rem;">M-PHONE EVENT</div>
+ <ul class="nav-list">
+ <li><a href="#">홈</a></li>
+ <li><a href="#">가격표</a></li>
+ <li><a href="#">예약하기</a></li>
+ <li><a href="#">정보</a></li>
+ </ul>
+ </nav>
 
-    <!-- 메인 콘텐츠 영역 -->
-    <main class="content-block">
-        
-        <header>
-            <span class="mono-tag">INFO / GUIDE</span>
-            <h1>마포 노래방 이벤트 — 비용 구조와 조건별 선택 가이드</h1>
-            <p style="margin-top: 0.5rem; font-style: italic;">
-                "실제로 이용해보니, 단순히 시간당 가격을 보는 것보다 '누가 몇 명인지'에 따라 비용이 확 달라진다는 걸 알게 되었습니다."
-            </p>
-        </header>
+ <!-- 메인 콘텐츠 영역 -->
+ <main class="content-block">
+ 
+ <header>
+ <span class="mono-tag">INFO / GUIDE</span>
+ <h1>마포 노래방 이벤트 — 비용 구조와 조건별 선택 가이드</h1>
+ <p style="margin-top: 0.5rem; font-style: italic;">
+ "실제로 이용해보니, 단순히 시간당 가격을 보는 것보다 '누가 몇 명인지'에 따라 비용이 확 달라진다는 걸 알게 되었습니다."
+ </p>
+ </header>
 
-        <div class="content-block">
-            <h2>1. 인원 수와 시간대에 따른 비용 구조 분석</h2>
-            <p>마포 지역에서 노래방을 예약할 때 가장 먼저 고려해야 할 것은 단순한 시간당 요금보다 '인원 수'에 따른 단가 변동입니다. 대부분의 노래방 체인은 10 명 이하와 11~20 명 이상으로 나뉘어서로 다른 가격 정책을 적용합니다.</p>
-            <p>예를 들어, 소규모 단체 (3~5 명) 에서는 오후 시간대 이용 시 '초반 할인'이 적용되지만, 저녁 이후에는 '프리미엄 요금제'로 전환되는 경우가 많습니다. 이는 마포 인근의 상업지구 특성상 저녁 시간대의 룸 수요가 급증하기 때문입니다. 따라서 10 명 이상의 대규모 파티를 계획한다면 평일 낮 시간대에 미리 예약하여 단가를 최적화하는 전략이 효과적입니다.</p>
-            <h3>시간대별 요금 변동성 체크</h3>
-            <p>평일과 주말의 가격 차이는 단순히 '날짜'에 따라 결정되지 않습니다. 오후 5 시~8 시 사이를 기준으로 한 '금요일/토요일' 전환점이 핵심 변수입니다.</p>
-            <p>특히 마포구 성산동 일대는 대학가와 밀집된 주거지 특성으로, 학생 중심의 오후 이용과 직장인 중심의 저녁 이용이 공존합니다. 이 때문에 10 시 이후에는 일반적인 평일 요금보다 주말 요금이 적용되더라도 단가가 낮게 책정되는 '오프-피크 타임' 할인 패키지를 제공하는 경우가 많습니다.</p>
-        </div>
+ <div class="content-block">
+ <h2>1. 인원 수와 시간대에 따른 비용 구조 분석</h2>
+ <p>마포 지역에서 노래방을 예약할 때 가장 먼저 고려해야 할 것은 단순한 시간당 요금보다 '인원 수'에 따른 단가 변동입니다. 대부분의 노래방 체인은 10 명 이하와 11~20 명 이상으로 나뉘어서로 다른 가격 정책을 적용합니다.</p>
+ <p>예를 들어, 소규모 단체 (3~5 명) 에서는 오후 시간대 이용 시 '초반 할인'이 적용되지만, 저녁 이후에는 '프리미엄 요금제'로 전환되는 경우가 많습니다. 이는 마포 인근의 상업지구 특성상 저녁 시간대의 룸 수요가 급증하기 때문입니다. 따라서 10 명 이상의 대규모 파티를 계획한다면 평일 낮 시간대에 미리 예약하여 단가를 최적화하는 전략이 효과적입니다.</p>
+ <h3>시간대별 요금 변동성 체크</h3>
+ <p>평일과 주말의 가격 차이는 단순히 '날짜'에 따라 결정되지 않습니다. 오후 5 시~8 시 사이를 기준으로 한 '금요일/토요일' 전환점이 핵심 변수입니다.</p>
+ <p>특히 마포구 성산동 일대는 대학가와 밀집된 주거지 특성으로, 학생 중심의 오후 이용과 직장인 중심의 저녁 이용이 공존합니다. 이 때문에 10 시 이후에는 일반적인 평일 요금보다 주말 요금이 적용되더라도 단가가 낮게 책정되는 '오프-피크 타임' 할인 패키지를 제공하는 경우가 많습니다.</p>
+ </div>
 
-        <div class="content-block">
-            <h2>2. 기기 선호도: 아날로그 감성 vs 디지털 편의성</h2>
-            <p>노래방을 선택할 때 음향 환경은 절대적인 요소입니다. '마포노래방'이라는 키워드로 검색하면 다양한 스타일의 룸이 나옵니다. 이때 중요한 것은 단순히 '소리가 크다'는 것이 아니라, '자신의 목소리에 대한 피드백'입니다.</p>
-            <p>아날로그 감성을 중시하는 사용자라면 진동형 마이크나 고음질 아날로그 스피커를 탑재한 룸을 선택해야 합니다. 반면에 디지털 음원 기반의 최신 기기 선호도 사용자는 블루투스 연결이 가능한 마이크와 HD 오디오 출력을 지원하는 시스템을 원할 수 있습니다.</p>
-            <h3>실제 이용 후기의 기기 만족도</h3>
-            <p>많은 사용자가 '마이크가 너무 작다'거나 '스피커 소리가 뭉글뭉글하다'는 불만을 제기하는 경우, 이는 단순히 기기 문제라기보다는 음향 밸런스 설정의 문제일 수 있습니다. 예약 전 문의 시 해당 룸의 기기 사양 (예: 마이크 타입, 스피커 출력) 을 확인하고, 가능하면 '테스트 이용'을 요청하는 것이 좋습니다.</p>
-        </div>
+ <div class="content-block">
+ <h2>2. 기기 선호도: 아날로그 감성 vs 디지털 편의성</h2>
+ <p>노래방을 선택할 때 음향 환경은 절대적인 요소입니다. '마포노래방'이라는 키워드로 검색하면 다양한 스타일의 룸이 나옵니다. 이때 중요한 것은 단순히 '소리가 크다'는 것이 아니라, '자신의 목소리에 대한 피드백'입니다.</p>
+ <p>아날로그 감성을 중시하는 사용자라면 진동형 마이크나 고음질 아날로그 스피커를 탑재한 룸을 선택해야 합니다. 반면에 디지털 음원 기반의 최신 기기 선호도 사용자는 블루투스 연결이 가능한 마이크와 HD 오디오 출력을 지원하는 시스템을 원할 수 있습니다.</p>
+ <h3>실제 이용 후기의 기기 만족도</h3>
+ <p>많은 사용자가 '마이크가 너무 작다'거나 '스피커 소리가 뭉글뭉글하다'는 불만을 제기하는 경우, 이는 단순히 기기 문제라기보다는 음향 밸런스 설정의 문제일 수 있습니다. 예약 전 문의 시 해당 룸의 기기 사양 (예: 마이크 타입, 스피커 출력) 을 확인하고, 가능하면 '테스트 이용'을 요청하는 것이 좋습니다.</p>
+ </div>
 
-        <div class="content-block">
-            <h2>3. 마포 지역 특화 이벤트 및 예약 전략</h2>
-            <p>마포 지역은 전통적으로 노래방 문화를 선도해 온 곳으로, 다양한 이벤트가 정기적으로 진행됩니다. '마포 이벤트' 키워드로 검색하면 특정 날짜 (예: 10 월 말) 에 진행되는 '단체 할인'이나 '음료 무료 제공' 프로모션을 확인할 수 있습니다.</p>
-            <p>이벤트 참여 시에는 단순한 '인원 기준'보다 '조기 예약'이 더 큰 혜택을 주는 경우가 많습니다. 예를 들어, 예약 2 일 전까지 신청하면 기본 요금의 10% 할인뿐만 아니라 추가 음료를 무료로 제공하는 등의 혜택을 받을 수 있습니다.</p>
-            <h3>예약 플랫폼 비교 및 활용</h3>
-            <p>온라인 예약 시스템을 사용하는 경우, '실시간 잔여 룸' 확인과 '자동 취소 정책'을 꼼꼼히 살펴야 합니다. 특히 주말에는 예약이 빠르게 마감되므로, 평일 낮 시간대나 오후 늦은 시간대에 미리 예약할 경우 더 다양한 옵션을 선택할 수 있습니다.</p>
-        </div>
+ <div class="content-block">
+ <h2>3. 마포 지역 특화 이벤트 및 예약 전략</h2>
+ <p>마포 지역은 전통적으로 노래방 문화를 선도해 온 곳으로, 다양한 이벤트가 정기적으로 진행됩니다. '마포 이벤트' 키워드로 검색하면 특정 날짜 (예: 10 월 말) 에 진행되는 '단체 할인'이나 '음료 무료 제공' 프로모션을 확인할 수 있습니다.</p>
+ <p>이벤트 참여 시에는 단순한 '인원 기준'보다 '조기 예약'이 더 큰 혜택을 주는 경우가 많습니다. 예를 들어, 예약 2 일 전까지 신청하면 기본 요금의 10% 할인뿐만 아니라 추가 음료를 무료로 제공하는 등의 혜택을 받을 수 있습니다.</p>
+ <h3>예약 플랫폼 비교 및 활용</h3>
+ <p>온라인 예약 시스템을 사용하는 경우, '실시간 잔여 룸' 확인과 '자동 취소 정책'을 꼼꼼히 살펴야 합니다. 특히 주말에는 예약이 빠르게 마감되므로, 평일 낮 시간대나 오후 늦은 시간대에 미리 예약할 경우 더 다양한 옵션을 선택할 수 있습니다.</p>
+ </div>
 
-        <div class="content-block">
-            <h2>4. 방문 전 필수 체크리스트</h2>
-            <p>마포 노래방을 방문하기 전에는 '위치 접근성'과 '주차 가능 여부'를 반드시 확인해야 합니다. 특히 성산동 인근은 도로가 좁아 대형 차량 진입이 어려울 수 있으므로, 대중교통 이용 계획을 세우는 것이 좋습니다.</p>
-            <p>또한, 음주 가능 여부와 함께 '음식 제공' 서비스도 고려해야 합니다. 일부 노래방은 별도 예약 시 피자를 배달하거나 간단한 스낵을 제공하므로, 이러한 서비스를 포함하여 예산을 계산하는 것이 현명합니다.</p>
-        </div>
+ <div class="content-block">
+ <h2>4. 방문 전 필수 체크리스트</h2>
+ <p>마포 노래방을 방문하기 전에는 '위치 접근성'과 '주차 가능 여부'를 반드시 확인해야 합니다. 특히 성산동 인근은 도로가 좁아 대형 차량 진입이 어려울 수 있으므로, 대중교통 이용 계획을 세우는 것이 좋습니다.</p>
+ <p>또한, 음주 가능 여부와 함께 '음식 제공' 서비스도 고려해야 합니다. 일부 노래방은 별도 예약 시 피자를 배달하거나 간단한 스낵을 제공하므로, 이러한 서비스를 포함하여 예산을 계산하는 것이 현명합니다.</p>
+ </div>
 
-    </main>
+ </main>
 
-    <footer style="margin-top: 4rem; border-top: 4px solid var(--border-color); padding-top: 2rem;">
-        <h3>FAQ / 자주 묻는 질문</h3>
-        <ul class="faq-list">
-            <li><strong>Q: 마포 노래방 예약은 몇 일 전까지 가능한가요?</strong><br>
-                A: 대부분 당일 예약도 가능하나, 주말에는 1~2 일 전 예약이 권장됩니다.</li>
-            <li><strong>Q: 음료를 무료로 제공하는 이벤트는 언제인가요?</strong><br>
-                A: 매월 마지막 주 금요일에 '피크타임 할인'과 함께 음료 무료 이벤트를 진행합니다.</li>
-        </ul>
-    </footer>
+ <footer style="margin-top: 4rem; border-top: 4px solid var(--border-color); padding-top: 2rem;">
+ <h3>FAQ / 자주 묻는 질문</h3>
+ <ul class="faq-list">
+ <li><strong>Q: 마포 노래방 예약은 몇 일 전까지 가능한가요?</strong><br>
+ A: 대부분 당일 예약도 가능하나, 주말에는 1~2 일 전 예약이 권장됩니다.</li>
+ <li><strong>Q: 음료를 무료로 제공하는 이벤트는 언제인가요?</strong><br>
+ A: 매월 마지막 주 금요일에 '피크타임 할인'과 함께 음료 무료 이벤트를 진행합니다.</li>
+ </ul>
+ </footer>
 
 </div>
 
