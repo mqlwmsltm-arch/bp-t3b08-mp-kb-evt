@@ -41,6 +41,41 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://mapo-room-guide.xyz/posts/gemini-coverage-20260721-0005.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mapo-room-guide.xyz/posts/gemini-coverage-20260721-0017.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mapo-room-guide.xyz/posts/gemini-coverage-20260721-0018.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mapo-room-guide.xyz/posts/gemini-coverage-20260721-0019.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mapo-room-guide.xyz/posts/gemini-coverage-20260721-0020.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mapo-room-guide.xyz/posts/juice-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mapo-room-guide.xyz/posts.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://mapo-room-guide.xyz/posts/gemini-coverage-20260721-0001.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -57,11 +92,6 @@
   </url>
   <url>
     <loc>https://mapo-room-guide.xyz/posts/gemini-coverage-20260721-0004.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mapo-room-guide.xyz/posts/gemini-coverage-20260721-0005.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -121,26 +151,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mapo-room-guide.xyz/posts/gemini-coverage-20260721-0017.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mapo-room-guide.xyz/posts/gemini-coverage-20260721-0018.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mapo-room-guide.xyz/posts/gemini-coverage-20260721-0019.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mapo-room-guide.xyz/posts/gemini-coverage-20260721-0020.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://mapo-room-guide.xyz/posts/gemini-coverage-20260722-0100.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -196,16 +206,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mapo-room-guide.xyz/posts/juice-1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mapo-room-guide.xyz/posts/juice-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://mapo-room-guide.xyz/posts/normal-1.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -221,12 +221,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mapo-room-guide.xyz/posts.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mapo-room-guide.xyz/posts-2.html</loc>
+    <loc>https://mapo-room-guide.xyz/posts/juice-1.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
