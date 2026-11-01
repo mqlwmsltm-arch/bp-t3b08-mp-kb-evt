@@ -277,18 +277,7 @@
  color: #665c54;
  }
 
- /* DOM Noise */
- .dom-noise {
- display: inline-block;
- width: 8px;
- height: 8px;
- background-color: var(--c-accent);
- opacity: 0.1;
- margin: 4px 2px;
- border-radius: 50%;
- }
-
- /* Responsive */
+  /* Responsive */
  @media (max-width: 768px) {
  .col-2, .col-3 { flex: 1 1 100%; }
  .card-grid-2 { grid-template-columns: 1fr; }
@@ -317,7 +306,7 @@ nav.pager a, nav.post-pager a, nav[data-site-documents="true"] a { display:inlin
  <!-- Header -->
  <header class="site-header">
  <div class="container nav-inner">
- <a href="#" class="logo">Mapo Room Guide</a>
+  <a href="/" class="logo">Mapo Room Guide</a>
  <nav class="nav-links">
  <a href="#criteria" class="nav-link">시설 선택 기준</a>
  <a href="#faq" class="nav-link">자주 묻는 질문</a>
@@ -349,7 +338,8 @@ nav.pager a, nav.post-pager a, nav[data-site-documents="true"] a { display:inlin
  <p>
  마포역 인근은 상암동, 서교동 등 주거 밀집지와 상업권이 혼재된 지역입니다. 
  따라서 노래방 시설의 운영 방식은 '정규 영업'과 '특수 이벤트'로 나뉩니다. 
- 단순한 방문 목적이라면 정석적인 파티룸을 선택하지만, <span class="dom-noise" data-t="A1B2C3D4"></span>
+  단순한 방문 목적이라면 정석적인 파티룸을 선택하지만,
+
  "이벤트"를 검색하는 경우 대부분 세 가지 중 하나를 원합니다. 
  첫째, 신규 오픈 기념으로 할인된 요금을 적용받는 경우이고, 둘째, 특정 주제 (예: 80 년대 음악) 의 파티룸을 예약하는 경우이며, 셋째는 계절별 테마 파티 (하alloween 등) 를 위한 공간입니다.
  </p>
@@ -479,11 +469,11 @@ nav.pager a, nav.post-pager a, nav[data-site-documents="true"] a { display:inlin
  <section id="about" class="container">
  <div class="author-section">
  <h3>About the Guide</h3>
- <p>
- <strong>로컬 가이드 (Local Guide)</strong><br>
- 마포 지역 정보를 5 년간 정리해온 로컬 가이드입니다. 단순한 리뷰를 넘어, 
- 방문 전 알아두면 좋은 정보와 실제 운영 현황을 반영하여 작성합니다.
- </p>
+  <p>
+  <strong>안내 성격 (Guide Purpose)</strong><br>
+  이 페이지는 마포역 인근 노래방 이벤트 정보를 수집하여 방문 전 확인 항목으로 정리한 가이드입니다. 
+  소개된 수치와 정책은 매장별로 확인해야 할 항목이며, 실제 적용 여부는 방문 날짜·인원·시간 기준으로 대조해야 합니다.
+  </p>
  </div>
  </section>
  </main>
@@ -491,23 +481,14 @@ nav.pager a, nav.post-pager a, nav[data-site-documents="true"] a { display:inlin
  <!-- Footer -->
  <footer class="site-footer">
  <div class="container">
- <div class="row" style="align-items: center; justify-content: space-between;">
- <div>
- <strong>&copy; 2023 Mapo Room Guide.</strong><br>
- All rights reserved.
- </div>
- <div>
- <a href="#" style="color: inherit; text-decoration: none;">Privacy Policy</a> | 
- <a href="#" style="color: inherit; text-decoration: none;">Contact</a>
- </div>
- </div>
+  <div class="row" style="align-items: center; justify-content: space-between;">
+  <div>
+  <strong>&copy; 2023 Mapo Room Guide.</strong><br>
+  All rights reserved.
+  </div>
+  </div>
  </div>
  </footer>
-
- <!-- DOM Noise Injection (Hidden/Minimal) -->
- <span class="dom-noise" data-t="F9E8D7C6"></span>
- <span class="dom-noise" data-t="B1A09887"></span>
- <span class="dom-noise" data-t="54321098"></span>
 
 </body>
 </html>
